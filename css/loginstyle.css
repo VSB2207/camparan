@@ -10,7 +10,6 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 40px;
-    position: absolute;
 }
 @media(max-width:600px) {
   .col-lg-6{
@@ -18,11 +17,11 @@ footer {
   }
 
 
-    footer{
+    /*footer{
 
       position: relative;
         text-align:left;
-    }
+    }*/
 }
 @media(min-width:601px) {
   .col-lg-6{
@@ -30,16 +29,13 @@ footer {
   }
 
 
-    footer{
+    /*footer{
 
       position: relative;
         text-align:left;
-    }
+    }*/
 }
-.panel-footer{
-  background-color: blue;
-  text-decoration-color: black;
-}
+
 
 
 /* #bg {
@@ -61,10 +57,10 @@ footer {
   #register{
     margin-top: 70px;
     max-width: 600px;
-    max-height: 800%;
+    max-height: 750%;
 
     border: 1px solid #9C9C9C;
-    /* background-color: #EAEAEA; */
+     background-color: #EAEAEA; 
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
     color: white;
