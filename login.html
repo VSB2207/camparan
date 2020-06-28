@@ -36,13 +36,9 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
 
-          <li><a href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span> contact us</a></li>
+        
 
-          <li><a href="newshome.html"><span class="glyphicon glyphicon-globe"></span> News</a></li>
-
-          <li><a href="shopnow.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shop now</a></li>
-
-          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Login/Sign Up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Login/Sign Up</a></li>
         </ul>
       </div>
     </div>
@@ -50,54 +46,221 @@
   <!--Header end-->
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--tab-->
+        <br><br><br><br><br><br>    
+	<div class="container">
+        <ul class=" nav nav-pills " >
+            <li class="nav-link active"> <a href="#signin" data-toggle="pill"> login</a> </li>
+            <li class="nav-link"> <a href="#signup" data-toggle="pill"> signup</a> </li>
+            
+        
+        </ul>
+        
+        
+        
+        
+<!--        <hr style="margin-top: 0px; ">-->
+        
+        
+        <div class="tab-content">
+            
+            <div id="signin" class="tab-pane fade in active">    
+                <div class="w3l-services">
+                    
+    
+                    <div class="container" id="login">
+
+                            <form class=" form-area mx-auto ">
+                                <div class="text-center">
+                                <h2>Login</h2>
+                               </div>
+                                <hr>
+                                
+                              <div class="form-group">
+                                <label for="email-id">E-mail ID</label>
+                                <input type="email" class="form-control" placeholder="Enter your email address">
+                              </div>
+                              <div class="form-group">
+                                <label for="InputPassword">Password</label>
+                                <input type="password" class="form-control" id="InputPassword" placeholder="Enter your password">
+                              </div>
+
+                              <div class="form-group form-check">
+                                <a href="reset.html" style="color:white">Forgot password</a>
+                              </div>
+                              <div class="col text-center">
+                                <button type="submit" class=" customBtn  btn-lg" aria-pressed="true" style="color:black">Login</button><br><br>
+<!--
+                                <div class="panel-footer" style=" background-color: black;">
+                                  <p style="font-size: 20px;  ">Don't have an account? <a href="login.html#signup">Register</a></p>
+                                </div>
+-->
+                                <!-- <a href="signup.html"><button class="customBtn btn-lg" style="color:black">Sign Up</button></a>  -->
+
+                              </div>
 
 
+                            </form>
+                        </div>
+
+                          
+                    </div>
+            </div>
+          
+            
+            <div id="signup" class="tab-pane fade"><div class="values">
+		<div class="container"> 
+			
+			
+             <div class="container " id="register" >
+                  <form class="  form-area mx-auto "  >
+                       <div class="form-group mt-5 p-3 text-center">
+                        <h2>Sign up with us👍</h2>
+                       </div>
+                      <hr>
+
+                      <div class="form-group">
+                        <div  class="row">
+                          <div class="col-lg-6">
+                            <!-- <label for="InputPassword">First Name</label> -->
+                            <input type="text" class="form-control"   placeholder="First Name" id="InputPassword">
+                          </div>
+                          <div class="col-lg-6">
+                            <!-- <label for="InputPassword">Last Name</label> -->
+                            <input type="text" class="form-control" placeholder="Last Name" id="InputPassword">
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <div class="form-group">
+                        <!-- <label for="example-tel-input">E-Mail-ID</label> -->
+                        <input type="email" class="form-control"  placeholder="Email-ID" id="example-tel-input">
+
+                      </div>
+
+                      <div class="form-group">
+                        <!-- <label for="InputPassword">Password</label> -->
+                        <input type="password" class="form-control"  placeholder="Password" id="InputPassword">
+                      </div>
+
+                      <div class="form-group">
+                        <!-- <label for="InputPassword">Confirm Password</label> -->
+                        <input type="password" class="form-control"  placeholder="Confirm Password" id="InputPassword">
+                      </div>
+
+                      <div class="form-group">
+                        <!-- <label for="example-tel-input">Mobile Number</label> -->
+                        <input type="code" class="form-control"  placeholder="Mobile Number" id="">
+                      </div>
+
+                      <div class="col text-center">
+                        <button type="submit" class="btn btn-outline-success btn-lg" aria-pressed="true" style="color:black">Signup</button>
+                      </div>
+
+                      <div class="or-container">
+                        <div class="line-separator"></div>
+                        <div class="or-label">or</div>
+                      </div>
+                      <br>
+
+                       <div class="row">
+                        <div class="col-lg-6 ">
+                          <center><a class=" customBtn btn btn-lg btn-google btn-block  btn-outline" style="background-color:white;margin-top: 100px;color:black;margin:auto; " href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Google
+                                signup</a></center></div>
+
+                        <div class="col-lg-6 " >
+                          <a class="btn btn-lg btn-social btn-facebook" style="margin-top: 10px;margin:auto;width:100%">
+                            <i class="fa fa-facebook fa-fw"></i> Sign in with Facebook</a></div>
+
+                            <br><br>
+
+<!--                      <div class="text-center" style="font-size: 20px; margin-top: 30px; text-decoration-color: black; background-color: black; padding: 10px;"><p>Already have an account? <a href="login.html">login</a></p></div> -->
+                      </div>
 
 
-  <div class="container-fluid decor_bg" id="login">
-
-
-    <div class="text-center">
-      <h2>Login</h2>
-    </div>
-
-    <form class=" form-area ">
-      <div class="form-group">
-        <label for="email-id">E-mail ID</label>
-        <input type="email" class="form-control" placeholder="Enter your email address">
-      </div>
-      <div class="form-group">
-        <label for="InputPassword">Password</label>
-        <input type="password" class="form-control" id="InputPassword" placeholder="Enter your password">
-      </div>
-
-      <div class="form-group form-check">
-        <a href="reset.html" style="color:white">Forgot password</a>
-      </div>
-      <div class="col text-center">
-        <button type="submit" class=" customBtn  btn-lg" aria-pressed="true" style="color:black">Login</button><br><br>
-        <div class="panel-footer" style=" background-color: black;">
-          <p style="font-size: 20px;  ">Don't have an account? <a href="signup.html">Register</a></p>
+                    </form>
+                 <br><br><br><br><br><br><br><br>
+                    </div>
+            
+            
+		</div>
+	</div>
+            </div>
+            
         </div>
-        <!-- <a href="signup.html"><button class="customBtn btn-lg" style="color:black">Sign Up</button></a>  -->
-
-      </div>
-
-
-    </form>
-
-  </div>
+        
+		
+	</div>
+   
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
 
 
 
   <!--Footer-->
-  <footer style="position: absolute;">
-    <div class="container">
-      <center>
-        <p>Copyright &copy; CHAMPARN ORGANIC. All Rights Reserved </p>
-      </center>
-    </div>
-  </footer>
+  
   <!--Footer end-->
 
 

@@ -961,7 +961,7 @@ p {
     text-align: center;
 }
 .address-left {
-    background: #fff;
+    background: rgb(255,255,255,0.4);
     padding: 2em;
     z-index: 9;
 }
@@ -975,7 +975,7 @@ p {
     display: block;
     position: absolute;
     bottom: -189px;
-    left: -36px;
+    left: 20px;
     width: 500px;
     height: 155px;
     z-index: 0;
@@ -1846,7 +1846,6 @@ h3.w3ls-title.w3ls-title1 {
 /*-- values --*/
 .values h5 {
     font-size: 1.5em;
-    margin-bottom: 0.5em;
     font-family: 'Offside', cursive;
 	color: #137288;
 }
@@ -2775,6 +2774,8 @@ h3.w3ls-title.w3ls-title1 {
     float: left;
     width: 25%;
 }
+       
+    
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	margin: 0 auto;
 } 
