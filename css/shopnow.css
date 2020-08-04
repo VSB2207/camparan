@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0; 
 	font-family: 'Roboto Condensed', sans-serif;
@@ -31,10 +26,7 @@ body a:hover{
 	text-decoration:none;
 }
 /*-- header --*/
-.w3ls-header {
-    background: #464646;
-    padding: 0.5em 2em;
-} 
+
 .w3ls-header-left {
     float: left;
 }

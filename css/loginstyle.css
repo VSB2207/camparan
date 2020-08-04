@@ -122,14 +122,14 @@ body,html{
 }
 
 .btn-social {
-  margin-top: 10px;
-  text-align:center;
-    position: relative;
-    padding-left: 44px;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+          margin-top: 10px;
+          text-align:center;
+         position: relative;
+         padding-left: 44px;
+         text-align: left;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
 }
 
 .btn-social:hover {
@@ -148,25 +148,22 @@ body,html{
     border-right: 1px solid rgba(0,0,0,0.2);
 }
 .nav-pills .nav-items{
-    width: calc(100%/2);
-font-weight: bold;
+    font-weight: bold;
     font-size:2.0rem;
     text-align: center;
     text-decoration-color: black;
     line-height: 40px;
-          font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-pills .nav-link{
-    width: calc(100%/4);
     font-weight: bold;
     font-size:2.5rem;
     font-family: cursive,fantasy;
     text-align: center;
     background-color: rgba(0,0,0,0.4);
-    display: inline-block | important;
+/*    display: inline-block | important;*/
 /*    border-radius: 20px;*/
-    
     line-height: 40px;
           
 
@@ -176,7 +173,7 @@ font-weight: bold;
 .nav-pill .nav-link.active{
     background-color: aliceblue;
     border-radius: 20px;
-          font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     
 }
